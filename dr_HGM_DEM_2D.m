@@ -39,7 +39,7 @@ rand('seed',3)
 % Time-variables
 t     = 0.0            % Initial simulation time
 tmax  = .10;           % Final simulation time 
-dt    = 1e-5;          % Size of the timestep 
+dt    = 1e-4;          % Size of the timestep 
 nt=round((tmax-t)/dt); % Number of steps 
 everyn= 500;           % Number of steps between graphical output
 
