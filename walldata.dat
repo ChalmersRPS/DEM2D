@@ -1,0 +1,45 @@
+% Geometry Data For A Hopper
+% Comments can be replaced with other comments, don't add comments in any other lines
+6 % Number of wall particles: Don't forget to modify this if you modify the numbers
+4 % Number of corners for the floor
+0 % 0 indicates that the particle does not move
+0 0
+0.1 0
+0.1 0.006
+0 0.006
+4 % Number of corners for the left wall
+0 % 0 indicates that the particle does not move
+0 0.006
+0.006 0.006
+0.006 0.126
+0 0.126
+4 % Number of corners for the right Wall
+0 % 0 indicates that the particle does not move
+0.1 0.126
+0.094 0.126
+0.094 0.006
+0.1 0.006
+4 % Number of corners for the ceiling 
+0 % 0 indicates that the particle does not move
+0 0.126
+0.1 0.126
+0.1 0.132
+0 0.132
+4 % Number of corners for the left slope of the hopper
+0 % 0 indicates that the particle does not move
+0.006 0.071
+0.006 0.065
+0.0382 0.0420
+0.041 0.046
+4 % Number of corners for the fight slope of the hopper 
+0 % 0 indicates that the particle does not move
+0.094 0.071
+0.059 0.046
+0.0618 0.042
+0.094 0.065
+4 % one freely moving particle
+1 % 1 indicates that the particle does move according to Newtons equations of motion
+0.094 0.071
+0.059 0.046
+0.0618 0.042
+0.094 0.065
