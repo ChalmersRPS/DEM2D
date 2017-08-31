@@ -45,7 +45,7 @@ everyn= 500;           % Number of steps between graphical output
 
 % DEM-parameters
 gravity   = 15;    % 9.81 [m/s^2] Standard acceleration due to free fall.
-rhoPoly   = 5000.0;  % 5000 [kg/m^3] Density of particle.
+rhoPoly   = 4000.0;  % 5000 [kg/m^3] Density of particle.
 rhoWall   = rhoPoly; % [kg/m^3] Density of wall.
 emodul    = 1.0e+6;  % Young modulus. 
 mu        = 0.1;     % 0.3 Coefficient of friction.
